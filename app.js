@@ -6,7 +6,7 @@ app.use(express.json());
 
 
 app.post('/', (req, res) => {
-    res.redirect('/bfhl');
+    res.send("Hello")
 });
 
 app.post('/bfhl', (req, res) => {
